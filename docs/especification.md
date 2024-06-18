@@ -9,14 +9,17 @@ Com os dados abaixo levantados será possível a elaboração da aplicação, cu
 
 ## Personas
 ### Elisa Marques
-![Persona Elisa Marques](./img/personas/persona-elisa-marques.jpg)
+<img src="./img/personas/persona-elisa-marques.jpg" alt="Persona Elisa Marques" width="300"/>
+
 Uma Administradora de 32 anos dedicada que vive na correria do dia a dia, tem interesse em praticar algum esporte ou alguma academia mas não sabe por onde começar, tem interesses em defesa pessoal, precisa de informações solídas para se decidir e suporte para continuar.
 ### Gustavo Silva
-![Persona Gustavo Silva](./img/personas/persona-gustavo-silva.jpg)
+<img src="./img/personas/persona-gustavo-silva.jpg" alt="Persona Gustavo Silva" width="300"/>
+
 Um calouro do curso de ED Fisica de 22 anos que cresceu assistindo filmes de kung fu e se apaixonou pelas artes marciais, praticante de Wing Chun a 4 anos hoje está vivenciando o 3º nível do sistema mas esta com dificuldade de encontrar tempo para treinar.
 
 ### Heitor Santos
-![Persona Heitor Santos](./img/personas/persona-heitor-santos.jpg)
+<img src="./img/personas/persona-heitor-santos.jpg" alt="Persona Heitor Santos" width="300"/>
+
 Um empresario local de 48 anos que gosta de viajar nos tempos livres, é praticante de Wing Chun a 12 anos e quando pode ajuda na organização da escola a qual faz parte, atualmente vivencia o 5º nível do sistema e gostaria de poder ajudar mais seu Sifu.
 
 ## Histórias de Usuários
