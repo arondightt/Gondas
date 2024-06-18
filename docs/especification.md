@@ -57,7 +57,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-015 | A aplicação deve apresentar a página “Histórias de Sucesso” que destaca realizações anteriores, com depoimentos de alunos e o impacto positivo alcançado.         | ALTA       | Estático   |
 | RF-016 | Os alunos devem receber um e-mail quando um novo evento for cadastrado.                                                                                          | MÉDIA      | Dinâmico   |
 | RF-017 | A página do nível administrado pelos ADMs deve exibir uma lista de todos os alunos que estão no nível informado.                                                  | BAIXA      | Dinâmico   |
-| RF-018 | Na página de evento cadastrada pelos ADMs, deve haver um botão para enviar um link via e-mail aos alunos, solicitando que eles confirmem sua participação.         | BAIXA      | Dinâmico   |
+|
 
 ### Requisitos não Funcionais
 
@@ -75,5 +75,4 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |-----|------------------------------------------------------------------------------------------------------------------------|
 | 01  | Não será possível efetuar pagamentos pelo site.                                                                        |
 | 02  | Cada aluno poderá cadastrar no máximo 1 conta por CPF.                                                                 |
-| 03  | Cada aluno poderá se candidatar a apenas 2 eventos por vez.                                                            |
 | 04  | A comunicação entre alunos e ADMs ocorrerá de forma externa à aplicação (e-mail, telefone, mensagens de texto).        |
