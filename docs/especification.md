@@ -50,16 +50,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-008 | A aplicação deve permitir que os ADMs marquem eventos como concluídos ou encerrados.                                                                             | ALTA       | Dinâmico   |
 | RF-009 | A aplicação deve apresentar página contendo informações da escola.                                                                                               | ALTA       | Estático   |
 | RF-010 | A aplicação deve permitir que ADMs adicionem, editem ou excluam certificados quando necessario                                                                                               | ALTA       | Estático   |
-| RF-011 | A aplicação deve apresentar página contendo informações referentes aos certificados, permitindo que sejam pesquisado e visualizado por qualquer um com o codigo. | ALTA       | Estático   |
+| RF-011 | A aplicação deve apresentar página contendo informações referentes aos certificados, permitindo que sejam pesquisado e visualizado por qualquer um com o codigo. | ALTA       | Dinâmico   |
 | RF-012 | A aplicação deve incluir um campo para upload de imagem para que o ADM adcione cada certificado, permitindo que uma representação visual seja acessada durante a busca.| ALTA       | Dinâmico   |
 | RF-013 | Os alunos autenticados devem poder baixar o certificado em formato PDF, limitado aos certificados associados ao seu ID de aluno.                                  | Baixa       | Dinâmico   |
-| RF-014 | A aplicação deve apresentar a página “Como Começar” que orienta os visitantes sobre os passos necessários para se tornarem alunos registrados na aplicação.       | ALTA       | Estático   |
-| RF-015 | Deve existir uma página inicial (landing page) informativa que apresenta o propósito da escola e incentiva tanto os visitantes quanto os alunos a utilizar a aplicação. | ALTA       | Estático   |
-| RF-016 | A aplicação deve conter a página “Perguntas Frequentes” que aborda as dúvidas mais comuns dos visitantes em relação à escola e ao uso da plataforma.               | ALTA       | Estático   |
-| RF-017 | A aplicação deve apresentar a página “Por Que Se Matricular?” que apresenta os benefícios pessoais que podem ser obtidos ao se tornar aluno.                      | ALTA       | Estático   |
-| RF-018 | A aplicação deve apresentar a página “Histórias de Sucesso” que destaca realizações anteriores, com depoimentos de alunos e o impacto positivo alcançado.         | ALTA       | Estático   |
-| RF-019 | Os alunos devem receber um e-mail quando um novo evento for cadastrado.                                                                                          | MÉDIA      | Dinâmico   |
-| RF-020 | A página do nível administrado pelos ADMs deve exibir uma lista de todos os alunos que estão no nível informado.                                                  | BAIXA      | Dinâmico   |
+| RF-014 | A aplicação deve apresentar a página “Mural de mestres” que devem conter informações basicas sobre os mestres do sistema formados na escola.       | ALTA       | Estático   |
+| RF-015 | A aplicação deve apresentar a página “Como Começar” que orienta os visitantes sobre os passos necessários para se tornarem alunos registrados na aplicação.       | ALTA       | Estático   |
+| RF-016 | Deve existir uma página inicial (landing page) informativa que apresenta o propósito da escola e incentiva tanto os visitantes quanto os alunos a utilizar a aplicação. | ALTA       | Estático   |
+| RF-017 | A aplicação deve conter a página “Perguntas Frequentes” que aborda as dúvidas mais comuns dos visitantes em relação à escola e ao uso da plataforma.               | ALTA       | Estático   |
+| RF-018 | A aplicação deve apresentar a página “Por Que Se Matricular?” que apresenta os benefícios pessoais que podem ser obtidos ao se tornar aluno.                      | ALTA       | Estático   |
+| RF-019 | A aplicação deve apresentar a página “Histórias de Sucesso” que destaca realizações anteriores, com depoimentos de alunos e o impacto positivo alcançado.         | ALTA       | Estático   |
+| RF-020 | Os alunos devem receber um e-mail quando um novo evento for cadastrado.                                                                                          | MÉDIA      | Dinâmico   |
+| RF-021 | A página do nível administrado pelos ADMs deve exibir uma lista de todos os alunos que estão no nível informado.                                                  | BAIXA      | Dinâmico   |
 |
 
 ### Requisitos não Funcionais
@@ -81,3 +82,4 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | 01  | Não será possível efetuar pagamentos pelo site.                                                                        |
 | 02  | Cada aluno poderá cadastrar no máximo 1 conta por CPF.                                                                 |
 | 04  | A comunicação entre alunos e ADMs ocorrerá de forma externa à aplicação (e-mail, telefone, mensagens de texto).        |
+| 05  | Somente o ADM que também for instrutor poderá escolher outros para ter o direito de ADM.        |
