@@ -45,7 +45,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  Número   | Texto          | Número do endereço da ONG                                | 646                                                              |
 |  Cidade   | Texto          | Cidade onde vive o aluno                        | Belo Horizonte                                                   |
 |  Estado   | Texto          | Abreviação do estado onde vive o aluno          | MG (ISO 3166-2: BR)                                              |
-|  Imagem   | Texto          | Texto representando a imagem da ONG convertida em base64 | `data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEFFAUUAAD/...`         |
+|  Imagem   | Texto          | caminho para arquivo de imagem | `image/`         |
 |    status     | texto          | Status do nivel  | "Pendente", "Aprovado", "Concluido"                                  |
 |     Momento de Criação      | Timestamp | Data e hora de cadastro | "2023-03-27T03:05:18.345Z"            |
 |     cadastrado por      | Texto | nome do ADM que criou o cadastro | "João"            |
@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |     Email     | Texto            | Endereço de e-mail do instrutor            | joao@email.com                                    |
 |     Telefone     | Number            | Número de contato do instrutor            | (47) 9 8765-4321                                    |
 |   Senha   | Texto(SHA-256) | Senha de acesso à conta do instrutor                           | bdcebd4f01d7024696ba685eefc1c5dd446071b0c89f858aae7ef136c439e09e |
-|  Imagem   | Texto          | Texto representando a imagem da ONG convertida em base64 | `data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEFFAUUAAD/...`         |
+|  Imagem   | Texto          | caminho para arquivo de imagem | `image/`         |
 |     ADMIN      | Boolean | booleano informando o estado de administrador | TRUE, FALSE            |
 |
 
@@ -71,6 +71,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |     Nome      | Texto            | Nome do nivel                          | "SIU NIM TAO"                                              |
 |
 
+## Evento
+|      **Nome**      | **Tipo**  | **Descrição**                                           | **Exemplo**                          |
+|:------------------:|-----------|---------------------------------------------------------|--------------------------------------|
+|         Id         | NUMBER      | Identificador único do evento                       | 1 |
+|     Nome      | Texto            | Nome do evento                          | "Cerimonia de imersão"                                              |
+|  data do evento   | Timestamp   | Data e hora do evento     | 2023-10-28T22:41:38+00:00        |
+|  expiração do evento   | Timestamp   | Data e hora limite em que o evento estara disponivel     | 2023-10-28T22:41:38+00:00        |
+
 ## Certificado
 | **Nome**  | **Tipo**  | **Descrição**                                       | **Exemplo**                      |
 |:---------:|-----------|-----------------------------------------------------|----------------------------------|
@@ -79,6 +87,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |   id do nivel   | Number     | indentificador único do nivel | 2 |
 | codigo do certificado | texto | consulta existencia do certificado     | "ABC123456"        |
 |     id do instrutor      | Number            | numero indentificador do instrutor                          | 2                                             |
+|  Imagem   | Texto          | caminho para arquivo de imagem | `image/`         |
+|  PDF   | Texto          | caminho para arquivo em pdf | `arquivos/`         |
 |  data de emissão   | Timestamp   | Data e hora da certificação     | 2023-10-28T22:41:38+00:00        |
 
 ## Sessão
